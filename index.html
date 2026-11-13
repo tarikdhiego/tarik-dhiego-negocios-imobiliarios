@@ -18,13 +18,13 @@
 <body>
 <header class="wrap topbar">
   <a class="brand" href="#inicio" aria-label="Tarik Dhiego - início"><strong>TARIK DHIEGO</strong><span>NEGÓCIOS IMOBILIÁRIOS</span></a>
-  <nav class="nav" id="mainNav"><a href="#inicio">INÍCIO</a><a href="#imoveis">IMÓVEIS</a><a href="#categorias">CATEGORIAS</a><a href="#anuncie">ANUNCIE SEU IMÓVEL</a><a href="#sobre">SOBRE</a></nav>
+  <nav class="nav" id="mainNav"><a href="#inicio">INÍCIO</a><a href="catalogo.html">IMÓVEIS</a><a href="#categorias">CATEGORIAS</a><a href="#anuncie">ANUNCIE SEU IMÓVEL</a><a href="#sobre">SOBRE</a></nav>
   <a class="nav-cta" href="#contato">FALE COMIGO ↗</a>
   <button class="mobile-menu" type="button" aria-expanded="false" onclick="toggleMenu(this)">MENU</button>
 </header>
 <main>
 <section class="wrap hero" id="inicio">
-  <div><div class="eyebrow">São Paulo · SP</div><h1>O lugar certo para sua <em>próxima conquista.</em></h1><p>Encontre um imóvel que combine com seus planos. Uma jornada mais simples, com informação clara e atendimento próximo em cada etapa.</p><div class="hero-actions"><a class="btn" href="#imoveis">ENCONTRE SEU IMÓVEL ↗</a><a class="btn-outline" href="#anuncie">QUERO ANUNCIAR</a></div></div>
+  <div><div class="eyebrow">São Paulo · SP</div><h1>O lugar certo para sua <em>próxima conquista.</em></h1><p>Encontre um imóvel que combine com seus planos. Uma jornada mais simples, com informação clara e atendimento próximo em cada etapa.</p><div class="hero-actions"><a class="btn" href="catalogo.html">ENCONTRE SEU IMÓVEL ↗</a><a class="btn-outline" href="#anuncie">QUERO ANUNCIAR</a></div></div>
   <div class="hero-image"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85" alt="Sala de estar contemporânea em tons neutros"><div class="image-note">ESPAÇOS PARA NOVOS COMEÇOS</div></div>
 </section>
 <section class="wrap search-panel" aria-label="Busca de imóveis">
@@ -49,10 +49,10 @@
   </div>
 </section>
 <section class="section" id="categorias" style="background:#efede7"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Explore possibilidades</div><h2>Encontre pelo seu momento</h2></div><p>Do primeiro imóvel a uma nova oportunidade de investimento: diferentes opções, em um só lugar.</p></div><div class="categories">
-  <a class="category" href="#imoveis"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=700&q=80" alt=""><strong>Apartamentos</strong></a>
-  <a class="category" href="#imoveis"><img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=700&q=80" alt=""><strong>Casas e sobrados</strong></a>
-  <a class="category" href="#imoveis"><img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=700&q=80" alt=""><strong>Alto padrão</strong></a>
-  <a class="category" href="#imoveis"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=700&q=80" alt=""><strong>Investimento</strong></a>
+  <a class="category" href="catalogo.html?tipo=apartamento"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=700&q=80" alt=""><strong>Apartamentos</strong></a>
+  <a class="category" href="catalogo.html?tipo=casa"><img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=700&q=80" alt=""><strong>Casas e sobrados</strong></a>
+  <a class="category" href="catalogo.html?categoria=alto-padrao"><img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=700&q=80" alt=""><strong>Alto padrão</strong></a>
+  <a class="category" href="catalogo.html?categoria=investimento"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=700&q=80" alt=""><strong>Investimento</strong></a>
 </div></div></section>
 <section class="section wrap" id="anuncie"><div class="owner"><div><div class="eyebrow">Para proprietários</div><h2>Seu imóvel merece ser apresentado com cuidado.</h2><p>Estamos preparando este canal para receber proprietários interessados. Em breve, será possível enviar os dados do imóvel diretamente por aqui.</p><p style="font-size:10px">Este formulário é apenas demonstrativo e ainda não envia nem armazena seus dados.</p></div>
 <form class="owner-form" onsubmit="demoForm(event,'proprietário')"><div class="field"><label>Seu nome</label><input required placeholder="Nome completo"></div><div class="field"><label>WhatsApp</label><input required placeholder="(11) 99999-9999"></div><div class="field"><label>Tipo de imóvel</label><select required><option value="">Selecione</option><option>Apartamento</option><option>Casa</option><option>Sobrado</option><option>Terreno</option><option>Comercial</option></select></div><div class="field"><label>Bairro</label><input required placeholder="Onde fica o imóvel?"></div><div class="field full"><label>Conte um pouco mais (opcional)</label><textarea rows="2" placeholder="Venda ou locação, quartos, metragem..."></textarea></div><div class="full"><button class="btn" type="submit">QUERO ANUNCIAR MEU IMÓVEL ↗</button></div></form>
